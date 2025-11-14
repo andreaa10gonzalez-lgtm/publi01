@@ -31,8 +31,7 @@
       gap:10px;
     }
     .logo-item{
-      flex:1;
-      text-align:center;
+      flex:1;text-align:center;
     }
     .logo-item img{
       max-height:60px;
@@ -55,7 +54,6 @@
       border:1px solid rgba(255,255,255,.18);
       font-size:12px;
       font-weight:700;
-      letter-spacing:.06em;
       text-transform:uppercase;
       margin-bottom:14px;
     }
@@ -67,93 +65,55 @@
       margin-bottom:10px;
     }
     .subtitle{
-      font-size:14px;
-      color:#e0d9ff;
-      margin-bottom:18px;
+      font-size:14px;color:#e0d9ff;margin-bottom:18px;
     }
 
     .btn-whatsapp{
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      gap:10px;
-      width:100%;
-      padding:15px 18px;
-      border-radius:999px;
-      border:none;
-      cursor:pointer;
-      font-size:16px;
-      font-weight:800;
-      text-transform:uppercase;
-      background:linear-gradient(180deg,#15d15b,#09a33f);
-      color:#fff;
-      box-shadow:0 10px 26px rgba(4,130,46,0.8);
-      text-decoration:none;
+      display:flex;align-items:center;justify-content:center;gap:10px;
+      width:100%;padding:15px 18px;border-radius:999px;border:none;
+      cursor:pointer;font-size:16px;font-weight:800;text-transform:uppercase;
+      background:linear-gradient(180deg,#15d15b,#09a33f);color:#fff;
+      box-shadow:0 10px 26px rgba(4,130,46,0.8);text-decoration:none;
     }
     .btn-whatsapp img{
-      width:22px;
-      height:22px;
+      width:22px;height:22px;
     }
 
     .bar{
-      margin-top:14px;
-      padding:8px 10px;
-      border-radius:999px;
-      background:rgba(255,255,255,.05);
-      border:1px solid rgba(255,255,255,.14);
-      font-size:11px;
-      font-weight:700;
-      text-transform:uppercase;
-      color:#ffe86a;
+      margin-top:14px;padding:8px 10px;border-radius:999px;
+      background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);
+      font-size:11px;font-weight:700;text-transform:uppercase;color:#ffe86a;
       text-align:center;
     }
 
     .stats{
-      margin-top:16px;
-      padding:10px 10px 6px;
-      border-radius:16px;
-      background:rgba(255,255,255,.02);
-      border:1px solid rgba(255,255,255,.11);
-      display:flex;
-      justify-content:space-between;
-      font-size:12px;
+      margin-top:16px;padding:10px 10px 6px;border-radius:16px;
+      background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.11);
+      display:flex;justify-content:space-between;font-size:12px;
     }
     .stat-item{
-      flex:1;
-      text-align:center;
+      flex:1;text-align:center;
     }
     .stat-label{
-      color:#cdbfff;
-      font-weight:600;
-      margin-bottom:4px;
-      font-size:11px;
+      color:#cdbfff;font-weight:600;margin-bottom:4px;font-size:11px;
     }
     .stat-value{
-      font-weight:800;
-      color:#fff;
+      font-weight:800;color:#fff;
     }
 
     .games-image{
-      margin-top:16px;
-      width:100%;
-      border-radius:14px;
-      overflow:hidden;
+      margin-top:16px;width:100%;border-radius:14px;overflow:hidden;
     }
     .games-image img{
-      width:100%;
-      display:block;
-      border-radius:14px;
+      width:100%;display:block;border-radius:14px;
     }
 
     .footer{
-      margin-top:10px;
-      font-size:10px;
-      text-align:center;
-      color:#b39fdd;
+      margin-top:10px;font-size:10px;text-align:center;color:#b39fdd;
     }
   </style>
 
-  <!-- META PIXEL -->
+  <!-- PIXEL -->
   <script>
     !function(f,b,e,v,n,t,s){
       if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -207,15 +167,16 @@
         </div>
       </div>
 
+      <!-- NUEVA IMAGEN DE JUEGOS -->
       <div class="games-image">
-        <img src="juegos.webp" alt="Juegos">
+        <img src="juegos.jpeg" alt="Juegos">
       </div>
 
       <p class="footer">© 2025 • Juego solo +18. Operá con responsabilidad.</p>
     </section>
   </div>
 
-  <!-- EVENTO CLICK WHATSAPP -->
+  <!-- EVENTO CLICK -->
   <script>
     document.getElementById("btn-whatsapp").addEventListener("click", function() {
       fbq('trackCustom', 'clickwhatsapp');
